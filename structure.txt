@@ -1,0 +1,18 @@
+candidates: one target from each other house, one officer target
+officers: one target from each house.
+
+codenames
+  [todo]
+games
+  [game title]
+    o
+      0 (the name of the folder is how many times people listed in it are a target)
+        ... (names of the people who are targeted this many times)
+      1
+    b
+    d
+    s
+    k
+    targets
+      names... (filename is assassin, contents are their targets)
+    names... ([num lives] \n [killed player] \n [other killed player] \n ...  ; must end in newline)
