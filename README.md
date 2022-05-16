@@ -1,2 +1,6 @@
-# assassins
-php based system for hosting an assassins game
+# What is this?
+### This is a php based system used to run a game of assassins. Each player is a member of one of five groups (officers or one of four houses), and will have one target from each of the other groups. Upon eliminating one of their targets, a player will report that using this system, and be automatically assigned a new target (the new target will be a player who is currently targeted by the fewest players and is in the same group as the just eliminated player - but will not be the same player). Each player has three lives.
+
+### Features include a dashboard which displays all current targets, a leaderboard which shows each players kill count and remaining lives, and automatic target assignment.
+
+### To use, input the player names into the corresponding group in lines 26-30 of `people gen.py`, then run the file. This will generate the codenames players will use to login. They are saved in the `codenames/` folder. Set the admin password in `admin.php`. You can then navigate to `newgame.php`, and create a new game. Then distribute player's codenames, and they can begin playing, using any killing method you like.
